@@ -211,7 +211,7 @@ func TestHealthy(t *testing.T) {
 		{mockHealthErrJSON, "ERR", false},
 		{mockHealthAvailWarnJSON, "AVAILABILITY", false},
 		{mockHealhReqWarnJSON, "SLOW_REQUESTS", false},
-		{mockHealthDegWarnJSON, "DEGRAGED", false},
+		{mockHealthDegWarnJSON, "DEGRADED", false},
 		{mockHealthMisWarnJSON, "MISPLACED", false},
 		{mockHealthWarnAllJSON, "ALL", false},
 	}
